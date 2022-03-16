@@ -1,4 +1,4 @@
+document
+    .getElementById('root')
+    .appendChild(App());
 
-
-// 렌더링
-document.getElementById('root').appendChild(App());

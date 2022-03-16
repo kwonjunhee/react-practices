@@ -5,7 +5,7 @@ module.exports = {
     entry: path.resolve('src/index.js'),
     output: {
         path: path.resolve('public'),
-        filename:'bundle.js'
+        filename: 'bundle.js'
     },
     devServer: {
         host: '0.0.0.0',
@@ -13,5 +13,5 @@ module.exports = {
         liveReload: true,
         hot: false,
         compress: true
-    }
+    } 
 }

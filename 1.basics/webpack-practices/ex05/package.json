@@ -1,6 +1,7 @@
 {
   "name": "ex05",
   "version": "1.0.0",
+  "description": "SASS/SCSS 모듈 번들링 하기",
   "main": "index.js",
   "scripts": {
     "start": "npx webpack serve --progress",
@@ -19,6 +20,5 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "sass-loader": "^12.6.0"
-  },
-  "description": ""
+  }
 }

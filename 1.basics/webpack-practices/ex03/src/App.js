@@ -1,8 +1,7 @@
-// 어플리케이션 정의
 const App = function() {
-    const App = document.createElement("h1");
-    App.textContent = "Hello World";
+    const App = document.createElement('h1');
+    App.textContent = 'Hello Webpack';
     return App;
-};
+}
 
-export { App };
+export { App }

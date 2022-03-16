@@ -1,9 +1,9 @@
 {
-    "presets":[
+    "presets": [
         ["@babel/preset-env", {
             "targets": {
                 "ie": "11",
-                "edge": "89", 
+                "edge": "89",
                 "firefox": "92",
                 "chrome": "90",
                 "opera": "76",
@@ -11,5 +11,6 @@
             }
         }]
     ],
-    "plugins": []
+    "plugins": [
+    ]
 }

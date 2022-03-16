@@ -5,10 +5,10 @@ module.exports = {
     entry: path.resolve('src/index.js'),
     output: {
         path: path.resolve('public'),
-        filename:'bundle.js'
+        filename: 'bundle.js'
     },
     module: {
-        rules: [{
+        rules:[{
             test: /\.css$/i,
             use: ['style-loader', 'css-loader']
         }]
@@ -19,6 +19,5 @@ module.exports = {
         liveReload: true,
         hot: false,
         compress: true
-    }
-
+    } 
 }

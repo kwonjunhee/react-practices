@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ex01: Property",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "debug": "npx webpack serve --progress --mode development --env",
     "build": "npx webpack"
   },

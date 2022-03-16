@@ -4,23 +4,22 @@ module.exports = {
     mode: 'development',
     entry: path.resolve('src/index.js'),
     output: {
-        path: path.resolve(''),
-        filename:'main.js',
+        path: path.resolve('public'),
+        filename: 'main.js',
         assetModuleFilename: 'assets/images/[hash][ext]'
     },
     module: {
-        rules: [{
+        rules:[{
             test: /\.js$/i,
             exclude: /node_modules/,
             use: ['babel-loader']
-
-        },{
+        }, {
             test: /\.(sa|sc|c)ss$/i,
             use: ['style-loader', 'css-loader', 'sass-loader']
         }, {
-            test: /\.(png|gif|jpe?g|svg|ico|tiff?|bmp)$/i,
-            type: 'assets/resources'
-        }] 
+            test: /\.(png|git|jpe?g|svg|ico|tiff?|bmp)$/i,
+            type: 'asset/resource'
+        }]
     },
     devServer: {
         host: '0.0.0.0',
@@ -28,7 +27,6 @@ module.exports = {
         liveReload: true,
         hot: false,
         compress: true,
-        history: true
-    }
-
+        historyApiFallback: true
+    } 
 }
